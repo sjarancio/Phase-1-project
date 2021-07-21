@@ -1,0 +1,219 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #0f2557;
+}
+
+#singleTitle {
+    font-size: 20px;
+    font-weight: 200;
+}
+#header{
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+#searchBar {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+label{
+    font-size: large;
+}
+img{
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.movie-card {
+    float:left;
+    width: 230px;
+    margin:auto;
+}
+.movie-frame {
+    width: 210px;
+    margin: 10px;
+    height: 267px;
+}
+.movie-poster{
+    width: 190px;
+    height: 220px;
+    background-size: cover;
+    margin:auto;
+}
+h2 {
+    text-align: center;
+    font-size: 15px;
+}
+#singlePoster {
+    width: 400px;
+    height: 450px;
+    background-size: cover;
+    margin: auto;
+    float: left;
+}
+#movieInfo {
+    width:500px;
+    height:300px;
+    float: left;
+}
+#reviews {
+    display:inline-block;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+#review {
+    float: left;
+} 
+#btn{
+    background-color: rgb(179, 11, 11);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#homeBtn{
+    background-color: rgb(179, 11, 11);
+    border: none;
+    color: white;
+    padding: 7px 24px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#searchForm{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 32px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border:0;
+}
+#btnLabel{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 32px;
+    font-size: 18px;
+}
+.reviewBtn{
+    background-color: rgb(179, 11, 11);
+    border: none;
+    color: white;
+    padding: 5px 17px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.reviewInput{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 17px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: 0;
+}
+
+.rating {
+    float:left;
+}
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+.rating:not(:checked) > label {
+    float:right;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:100%;
+    line-height:1.2;
+    color:#ddd;
+}
+.rating:not(:checked) > label:before {
+    content: '\2605';
+}
+.rating > input:checked ~ label {
+    color: #f70;
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+}
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+#username{
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    border:2px;
+    color:black;
+}
+#password{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    border:5px;
+    color: black;
+   
+}
+#btn{
+    margin-top: 10px;
+}
+#loginForm{
+    width: 300px;
+    height: 140px;
+    float: right;
+    background-color: rgb(79, 127, 216);
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 3px black;
+   
+}
+#loginText{
+    padding-left:60px;
+    margin-bottom: 10px;
+    background-color: rgb(79, 127, 216);
+}
+#passwordText{
+    padding-right: 5px;
+    background-color: rgb(79, 127, 216);
+}
+#userText{
+    background-color: rgb(79, 127, 216);
+}
+#ratingForm{
+    padding-top: 20px;
+}
